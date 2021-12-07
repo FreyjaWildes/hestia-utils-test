@@ -1,0 +1,2 @@
+hestia-earth-utils
+pandas~=1.2.0

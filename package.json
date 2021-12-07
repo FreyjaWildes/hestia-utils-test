@@ -1,0 +1,14 @@
+{
+  "name": "hestia",
+  "version": "0.1.0",
+  "description": "Technical test for Hestia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Freyja",
+  "dependencies": {
+    "connect-busboy": "^0.0.2",
+    "express": "^4.17.1"
+  }
+}
