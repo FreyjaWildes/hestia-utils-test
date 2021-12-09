@@ -4,11 +4,16 @@
   "description": "Technical test for Hestia",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit --timeout 5000"
   },
   "author": "Freyja",
   "dependencies": {
     "connect-busboy": "^0.0.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3"
   }
 }

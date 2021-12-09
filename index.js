@@ -29,6 +29,7 @@ router.post('/csv',(req,res) => {
         file.pipe(subprocess.stdin)
 
         subprocess.on('close', function(exit_code) {
+            res.setHeader('content-type', 'text/plain')
             res.send(result_string)
         })
     })
@@ -42,3 +43,5 @@ router.get('/',(req,res) => {
 })
 
 app.listen(8080)
+
+module.exports = app
